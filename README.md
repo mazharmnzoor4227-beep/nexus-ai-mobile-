@@ -34,4 +34,4 @@ See [setup](docs/setup.md), [gateway contract](docs/gateway.md), [vault and secu
 
 No mandatory backend, database, subscription or billing is activated. Providers require your own authorized key and may impose quotas/costs; the app does not promise unlimited free inference.
 
-GitHub content writes currently return 403 from the connected integration. The user-supplied `nexus-ai-mobile-` repository is empty; a new `nexus-ai-mobile` repository has not been created by this session. Local commits/source can be published after access is corrected.
+The complete source is published in the connected `nexus-ai-mobile-` repository. Configure a reachable gateway URL and run the included GitHub Actions workflow to produce the APK artifact.
