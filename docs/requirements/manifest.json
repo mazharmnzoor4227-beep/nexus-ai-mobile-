@@ -1,0 +1,20 @@
+{
+  "project": "Nexus AI",
+  "version": "2.0",
+  "purpose": "Master prompt/specification pack for building a premium Android AI assistant",
+  "primary_architecture": "Single-Key Unified Gateway (hidden preconfigured endpoint) + optional direct providers",
+  "files": [
+    "00_READ_ME_FIRST.md",
+    "01_MASTER_BUILD_SPEC.md",
+    "02_SPEED_AND_ROUTING.md",
+    "03_UNIFIED_GATEWAY_API.md",
+    "04_FILES_ZIP_MEDIA.md",
+    "05_VOICE_AND_AUDIO.md",
+    "06_IMAGE_VIDEO_GENERATION.md",
+    "07_GITHUB_AND_BUILD.md",
+    "08_FREE_ONLY_AND_PRIVACY.md",
+    "09_FINAL_QA_CHECKLIST.md",
+    "10_SHORT_MESSAGE_TO_ASTRA.txt",
+    "11_HANDOFF_NOTES.md"
+  ]
+}

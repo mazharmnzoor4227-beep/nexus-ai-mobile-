@@ -1,0 +1,30 @@
+Read every file in the attached NEXUS AI Prompt Pack ZIP before implementing anything.
+
+Also inspect the attached Google Stitch/UI structure ZIP.
+
+Create a new GitHub repository named `nexus-ai-mobile` using my connected GitHub
+account.
+
+Build the complete Android application described in the prompt pack.
+
+Most important:
+- preserve and improve the Stitch design
+- every button/function must work
+- primary normal-user setup is ONLY ONE Unified API Key; gateway URL is preconfigured/hidden
+- dynamically load models
+- optional individual provider keys
+- fast streaming simple chat
+- deep coding/research modes
+- ZIP/project analysis
+- image/video understanding
+- image/video generation adapters
+- real voice conversation
+- local encrypted API vault
+- local chat history/projects
+- real downloadable artifacts
+- free/open-source/free-tier-first
+- no real secrets committed to GitHub
+- build and test the APK
+- do not stop at sample code or UI mockups
+
+Keep fixing errors until the APK successfully builds.

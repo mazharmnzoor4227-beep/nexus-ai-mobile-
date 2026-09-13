@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "inverse-surface": "#e5e1e4", "tertiary-container": "#7c87f3", "surface-tint": "#adc6ff", "primary-fixed": "#d8e2ff", "surface": "#131315", "secondary-fixed": "#d4e3ff", "on-tertiary": "#131e8c", "outline-variant": "#424754", "secondary": "#a4c9ff", "on-tertiary-container": "#081486", "on-surface-variant": "#c2c6d6", "on-tertiary-fixed-variant": "#2f3aa3", "on-secondary-fixed-variant": "#004883", "primary-container": "#4d8eff", "on-primary": "#002e6a", "outline": "#8c909f", "background": "#131315", "on-surface": "#e5e1e4", "error-container": "#93000a", "on-error-container": "#ffdad6", "surface-container-lowest": "#0e0e10", "on-secondary-container": "#d6e5ff", "surface-container-high": "#2a2a2c", "surface-dim": "#131315", "inverse-primary": "#005ac2", "primary": "#adc6ff", "on-primary-fixed": "#001a42", "on-tertiary-fixed": "#000767", "secondary-container": "#0267b8", "on-secondary-fixed": "#001c39", "error": "#ffb4ab", "tertiary-fixed": "#e0e0ff", "on-secondary": "#00315d", "surface-container": "#1f1f21", "primary-fixed-dim": "#adc6ff", "on-primary-container": "#00285d", "surface-bright": "#39393b", "tertiary-fixed-dim": "#bdc2ff", "inverse-on-surface": "#303032", "on-primary-fixed-variant": "#004395", "secondary-fixed-dim": "#a4c9ff", "on-background": "#e5e1e4", "surface-variant": "#353437", "surface-container-highest": "#353437", "surface-container-low": "#1b1b1d", "tertiary": "#bdc2ff", "on-error": "#690005" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "gutter": "1rem", "space-xl": "1.5rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "space-lg": "1rem", "space-md": "0.75rem", "margin": "1rem" }, fontFamily: { "label-sm": ["Inter"], "label-lg": ["Inter"], "headline-lg": ["Inter"], "body-lg": ["Inter"], "headline-md": ["Inter"], "label-md": ["Inter"], "body-sm": ["Inter"], "headline-sm": ["Inter"], "code-md": ["JetBrains Mono"], "body-md": ["Inter"] }, fontSize: { "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.03em", fontWeight: "600" }], "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "500" }], "headline-lg": ["30px", { lineHeight: "38px", letterSpacing: "-0.02em", fontWeight: "600" }], "body-lg": ["16px", { lineHeight: "26px", letterSpacing: "-0.005em", fontWeight: "400" }], "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "600" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "500" }], "body-sm": ["13px", { lineHeight: "18px", letterSpacing: "0em", fontWeight: "400" }], "headline-sm": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "600" }], "code-md": ["13px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "400" }], "body-md": ["15px", { lineHeight: "24px", letterSpacing: "0em", fontWeight: "400" }] } } } };</script><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:max(env(safe-area-inset-bottom,0px),8px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-background text-on-surface font-body-md text-body-md antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col"><header class="fixed top-0 inset-x-0 z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-6 px-gutter flex items-center justify-between text-on-surface-variant"><span class="font-label-sm text-label-sm tracking-tight text-on-surface font-semibold">9:41</span><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-[15px]">signal_cellular_4_bar</span><span class="material-symbols-outlined text-[15px]">wifi</span><span class="material-symbols-outlined text-[15px]">battery_full</span></div></div><div class="h-14 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Open Drawer" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[24px]">menu</span></button></div><div class="flex items-center"><button class="h-9 px-space-md rounded-full bg-surface-container flex items-center gap-space-xs text-on-surface hover:bg-surface-container-high transition-colors shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="font-label-md text-label-md font-medium tracking-wide">Chat History</span><span class="material-symbols-outlined text-[18px] text-on-surface-variant">arrow_drop_down</span></button></div><div class="flex items-center gap-space-xs"><button aria-label="Search Archive" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><button aria-label="New Chat" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">edit_square</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-20 pb-20 bg-background"><div class="flex flex-col w-full relative -mt-20 -mb-20 min-h-[calc(100vh+80px)] overflow-hidden">
+<!-- Dimmed Conversation Background Layer (OLED Context) -->
+<div class="absolute inset-0 bg-background pointer-events-none z-0 flex flex-col p-gutter opacity-20 filter blur-[2px]">
+<div class="flex justify-end mt-24 mb-4">
+<div class="bg-surface-container-high text-on-surface px-space-lg py-space-md rounded-lg max-w-[80%] font-body-md text-body-md">
+        Can you optimize this nested MongoDB aggregation query?
+      </div>
+</div>
+<div class="flex flex-col gap-space-sm max-w-[88%]">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">arrow_back_ios_new</span> Ambient Intelligence
+      </div>
+<div class="text-on-surface font-body-md text-body-md leading-relaxed">
+        Let's index the pipeline stages and replace the unbound $lookup with a targeted match projection.
+      </div>
+</div>
+</div>
+<!-- Soft Scrim Overlay -->
+<div class="absolute inset-0 bg-surface-container-lowest/80 backdrop-blur-md z-10"></div>
+<!-- Drawer Shell Container (Slide-out Experience) -->
+<div class="relative z-20 w-full max-w-sm flex flex-col bg-surface-container-low text-on-surface h-full min-h-screen shadow-2xl">
+<!-- Drawer Header: Brand & Search -->
+<div class="pt-12 px-gutter pb-space-md flex flex-col gap-space-md bg-surface-container-low/95">
+<!-- App Wordmark & Dismiss Affordance -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-gradient-to-tr from-primary-container to-secondary flex items-center justify-center text-on-primary shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">all_inclusive</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">Ambient AI</span>
+<span class="bg-secondary-container/50 text-on-secondary-container font-label-sm text-label-sm px-1.5 py-0.5 rounded-full">v2.4</span>
+</div>
+</div>
+<button aria-label="Close menu" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high transition-colors" id="closeDrawerBtn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Quick Search Bar -->
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-[18px] pointer-events-none">search</span>
+<input class="w-full h-11 pl-10 pr-9 rounded-full bg-surface-container text-on-surface placeholder:text-outline text-body-sm font-body-sm outline-none focus:bg-surface-container-high transition-colors" id="searchChatsInput" placeholder="Search chats, notes, code..." type="text"/>
+<button aria-label="Clear query" class="hidden absolute right-3 text-outline hover:text-on-surface" id="clearSearchBtn">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+</button>
+</div>
+</div>
+<!-- Quick Tool Shortcuts -->
+<div class="px-gutter py-space-xs flex flex-col gap-1">
+<!-- Prominent New Chat action -->
+<button class="w-full flex items-center justify-between px-space-md py-2.5 rounded-full bg-primary-container text-on-primary-container hover:brightness-110 active:scale-[0.99] transition-all shadow-sm">
+<div class="flex items-center gap-space-md">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">add</span>
+<span class="font-label-lg text-label-lg font-semibold">New Chat</span>
+</div>
+<span class="font-label-sm text-label-sm bg-on-primary-container/15 px-2 py-0.5 rounded-full text-on-primary-container font-medium">⌘N</span>
+</button>
+<!-- Secondary tool pills -->
+<div class="grid grid-cols-2 gap-1.5 mt-1">
+<button class="flex items-center gap-space-sm px-space-md py-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors">
+<span class="material-symbols-outlined text-secondary text-[18px]">photo_library</span>
+<span class="font-label-md text-label-md">Images</span>
+</button>
+<button class="flex items-center gap-space-sm px-space-md py-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors">
+<span class="material-symbols-outlined text-tertiary text-[18px]">folder_copy</span>
+<span class="font-label-md text-label-md">Library</span>
+</button>
+<button class="flex items-center gap-space-sm px-space-md py-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors">
+<span class="material-symbols-outlined text-surface-tint text-[18px]">layers</span>
+<span class="font-label-md text-label-md">Projects</span>
+</button>
+<button class="flex items-center gap-space-sm px-space-md py-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors">
+<span class="material-symbols-outlined text-primary text-[18px]">schedule</span>
+<span class="font-label-md text-label-md">Scheduled</span>
+</button>
+</div>
+</div>
+<!-- Divider Pill -->
+<div class="px-gutter my-2">
+<div class="h-[1px] w-full bg-surface-variant/40 rounded-full"></div>
+</div>
+<!-- Scrollable Chat History Stream -->
+<div class="flex-1 overflow-y-auto px-gutter space-y-space-md pb-6 pt-1" id="chatHistoryList">
+<!-- Section: Pinned -->
+<div class="history-group">
+<div class="flex items-center gap-space-xs px-space-sm mb-1">
+<span class="material-symbols-outlined text-primary text-[14px]" style="font-variation-settings: 'FILL' 1;">push_pin</span>
+<span class="font-label-sm text-label-sm text-primary tracking-wider uppercase font-semibold">Pinned</span>
+</div>
+<div class="space-y-1">
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors cursor-pointer" data-title="Mobile App Architecture v2">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">chat_bubble</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Mobile App Architecture v2</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors cursor-pointer" data-title="Q3 Growth Marketing Plan">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">chat_bubble</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Q3 Growth Marketing Plan</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Section: Today -->
+<div class="history-group">
+<div class="flex items-center px-space-sm mb-1">
+<span class="font-label-sm text-label-sm text-outline tracking-wider uppercase font-semibold">Today</span>
+</div>
+<div class="space-y-1">
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer" data-title="React Native performance debug">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">terminal</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">React Native performance debug</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer" data-title="Onboarding UX audit">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">chat_bubble</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Onboarding UX audit</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer" data-title="Dinner recipe ideas">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">restaurant</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Dinner recipe ideas</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Section: Yesterday -->
+<div class="history-group">
+<div class="flex items-center px-space-sm mb-1">
+<span class="font-label-sm text-label-sm text-outline tracking-wider uppercase font-semibold">Yesterday</span>
+</div>
+<div class="space-y-1">
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer" data-title="Python async crawler script">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">code</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Python async crawler script</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer" data-title="API router design">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">hub</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">API router design</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Section: Previous 7 Days -->
+<div class="history-group">
+<div class="flex items-center px-space-sm mb-1">
+<span class="font-label-sm text-label-sm text-outline tracking-wider uppercase font-semibold">Previous 7 Days</span>
+</div>
+<div class="space-y-1">
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer" data-title="Contract review summary">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">description</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Contract review summary</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+<div class="chat-row group flex items-center justify-between p-2 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer" data-title="Database indexing strategies">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<span class="material-symbols-outlined text-outline text-[18px] shrink-0">database</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Database indexing strategies</span>
+</div>
+<button aria-label="Chat options" class="chat-menu-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-variant shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Action Modal Bottom Sheet for Chat Item (Hidden by default) -->
+<div class="hidden absolute inset-x-0 bottom-24 p-gutter z-30 transition-all" id="itemActionModal">
+<div class="bg-surface-container-highest p-space-sm rounded-2xl shadow-xl space-y-1">
+<div class="px-space-md py-1 text-on-surface-variant font-label-sm text-label-sm truncate" id="modalChatTitle">
+          Selected Chat
+        </div>
+<button class="w-full flex items-center gap-space-sm px-space-md py-2 rounded-lg text-on-surface hover:bg-surface-container-high text-body-sm font-body-sm transition-colors">
+<span class="material-symbols-outlined text-[18px]">push_pin</span> Pin to Top
+        </button>
+<button class="w-full flex items-center gap-space-sm px-space-md py-2 rounded-lg text-on-surface hover:bg-surface-container-high text-body-sm font-body-sm transition-colors">
+<span class="material-symbols-outlined text-[18px]">edit</span> Rename Conversation
+        </button>
+<button class="w-full flex items-center gap-space-sm px-space-md py-2 rounded-lg text-on-surface hover:bg-surface-container-high text-body-sm font-body-sm transition-colors">
+<span class="material-symbols-outlined text-[18px]">archive</span> Archive Thread
+        </button>
+<button class="w-full flex items-center gap-space-sm px-space-md py-2 rounded-lg text-error hover:bg-error-container/30 text-body-sm font-body-sm transition-colors">
+<span class="material-symbols-outlined text-[18px]">delete</span> Delete Permanently
+        </button>
+</div>
+</div>
+<!-- Bottom Pinned User Profile Bar -->
+<div class="p-gutter bg-surface-container mt-auto">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="relative w-10 h-10 rounded-full overflow-hidden shrink-0 bg-surface-variant">
+<img class="w-full h-full object-cover" data-alt="Portrait photo of Alex Chen, a clean cut creative technologist looking into camera with soft ambient studio lighting, dark modern tech aesthetics, photorealistic 8k" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4Blt6ZUM2pKkatPRqqMuZTCcoMbemIwSoYsyuFy1xXCCUyyCO6FlS4aXpSKn7DMbhUzsnu4dqxKt4pvu4pib7LgLeue9FKhlFfwcXk9c1hMUe8cv2VwTzUV_WIHoFU9FC_dUyfgrxVY5SzNR2x5v5Na7uQm8U5sOXwwWjPHpRqU6AOQCym4fQxe3lf8ZMdlRAJyz7rDDMmI8zh9AVv1jftnzAnFgnxLg7JkySM2Ua0ZLkcDL0SsSNLQ"/>
+<div class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-secondary ring-2 ring-surface-container"></div>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold truncate leading-tight">Alex Chen</span>
+<div class="flex items-center gap-1.5 mt-0.5">
+<span class="px-1.5 py-0.2 rounded bg-primary text-on-primary font-label-sm text-label-sm font-bold tracking-tight uppercase">PRO</span>
+<span class="font-body-sm text-body-sm text-outline truncate">alex.chen@design.ai</span>
+</div>
+</div>
+</div>
+<button aria-label="Open settings" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors shrink-0">
+<span class="material-symbols-outlined text-[20px]">settings</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const searchInput = document.getElementById('searchChatsInput');
+    const clearBtn = document.getElementById('clearSearchBtn');
+    const chatRows = document.querySelectorAll('.chat-row');
+    const historyGroups = document.querySelectorAll('.history-group');
+    const actionModal = document.getElementById('itemActionModal');
+    const modalTitle = document.getElementById('modalChatTitle');
+    const menuButtons = document.querySelectorAll('.chat-menu-btn');
+
+    // Live search filter
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      clearBtn.classList.toggle('hidden', query.length === 0);
+
+      chatRows.forEach(row => {
+        const title = row.getAttribute('data-title').toLowerCase();
+        const matches = title.includes(query);
+        row.style.display = matches ? 'flex' : 'none';
+      });
+
+      // Hide empty section headers during filtering
+      historyGroups.forEach(group => {
+        const visibleRows = group.querySelectorAll('.chat-row:not([style*="display: none"])');
+        group.style.display = visibleRows.length > 0 ? 'block' : 'none';
+      });
+    });
+
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      clearBtn.classList.add('hidden');
+      chatRows.forEach(row => row.style.display = 'flex');
+      historyGroups.forEach(group => group.style.display = 'block');
+      searchInput.focus();
+    });
+
+    // Chat Context Menu Popover
+    menuButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const parentRow = btn.closest('.chat-row');
+        const title = parentRow.getAttribute('data-title');
+        modalTitle.textContent = title;
+        actionModal.classList.toggle('hidden');
+      });
+    });
+
+    // Close options menu when clicking anywhere else
+    document.addEventListener('click', (e) => {
+      if (!actionModal.contains(e.target)) {
+        actionModal.classList.add('hidden');
+      }
+    });
+
+    // Close drawer button feedback
+    const closeBtn = document.getElementById('closeDrawerBtn');
+    closeBtn.addEventListener('click', () => {
+      document.querySelector('.max-w-sm').classList.add('opacity-80');
+      setTimeout(() => {
+        document.querySelector('.max-w-sm').classList.remove('opacity-80');
+      }, 150);
+    });
+  })();
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] flex flex-col items-center" data-active-classes="text-primary font-semibold"><div class="w-full flex justify-around items-center h-14 px-gutter"><a class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="chat" href="#"><span class="material-symbols-outlined text-[22px]">chat_bubble</span><span class="font-label-sm text-label-sm">Chat</span></a><a class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="explore-assistants" href="#"><span class="material-symbols-outlined text-[22px]">grid_view</span><span class="font-label-sm text-label-sm">Explore</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] transition-colors text-primary font-semibold" data-path="chat-history" href="#"><span class="material-symbols-outlined text-[22px]">schedule</span><span class="font-label-sm text-label-sm">History</span></a><a class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="library" href="#"><span class="material-symbols-outlined text-[22px]">folder_open</span><span class="font-label-sm text-label-sm">Library</span></a></div><div class="w-full flex justify-center pb-2 pt-1"><div class="w-28 h-1 rounded-full bg-outline-variant/60"></div></div></nav></body></html>

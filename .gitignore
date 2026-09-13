@@ -1,0 +1,13 @@
+**/.dart_tool/
+**/build/
+**/.gradle/
+**/.idea/
+**/local.properties
+**/.flutter-plugins-dependencies
+*.log
+*.jks
+*.keystore
+key.properties
+.env
+.env.*
+!.env.example

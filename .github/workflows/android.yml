@@ -1,0 +1,43 @@
+name: Android
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      gateway_url:
+        description: Trusted HTTPS gateway including /v1 (not a key)
+        type: string
+        required: false
+permissions:
+  contents: read
+jobs:
+  verify-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.4'
+          channel: stable
+          cache: true
+      - run: flutter pub get --enforce-lockfile
+        working-directory: mobile
+      - run: flutter analyze
+        working-directory: mobile
+      - run: flutter test
+        working-directory: mobile
+      - run: flutter build apk --debug --dart-define="UNIFIED_GATEWAY_BASE_URL=$GATEWAY_URL"
+        working-directory: mobile
+        env:
+          GATEWAY_URL: ${{ inputs.gateway_url || vars.UNIFIED_GATEWAY_BASE_URL }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nexus-ai-debug-apk
+          path: mobile/build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
